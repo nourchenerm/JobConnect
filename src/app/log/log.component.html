@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="left">
+      <img src="./assets/log.png" alt="Logo" class="logo">
+    </div>
+    <div class="right">
+      <h1>Sign In</h1>
+      
+      <p class="log">Don't have account? <a href="register">Create Account</a></p>
+      <form [formGroup]="logForm"  (ngSubmit)="onSubmit()">
+        <input type="email" placeholder="Email Address" formControlName="email">
+        <input type="password" placeholder="Password" formControlName="password">
+        <div class="content">
+          <input type="checkbox" id="terms" formControlName="terms">
+          <label for="terms">Remember Me</label>
+        </div>
+        <br>
+        <button type="submit" class="btn">Create Account</button>
+      </form>
+      <br>
+      <a href="forget-password">Forget Password</a>
+      <br>
+      <br>
+      <div class="btns">
+        <button class="sign-btn"><i class="fa-brands fa-facebook-f"></i> Sign up with Facebook</button>
+        <button class="sign-btn"><i class="fa-brands fa-google"></i> Sign up with Google</button>
+      </div>
+     
+    </div>
+    
+  </div>
+  

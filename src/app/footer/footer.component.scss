@@ -1,0 +1,53 @@
+.info{
+    background-color: rgb(102, 102, 214);
+    display: flex;
+    justify-content: space-between;
+    max-width: 110%;
+    height: 100%; 
+    margin-top: -15px;
+    margin-bottom: -20px;
+    overflow: hidden;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px 100px;
+
+
+}
+.content,.candidate,.employers,.support{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+  }
+  h2{
+    color: aliceblue;
+  }
+.container{
+    background-color: rgb(102, 102, 214);
+    max-width: 110%;
+    height: 100%; 
+    margin-top: -15px;
+    margin-bottom: -20px;
+    overflow: hidden;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px 100px;
+}
+.social{
+    float: right;
+    margin-top: -30px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-size: 24px;
+}

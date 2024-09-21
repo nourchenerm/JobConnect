@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+
+/* Pour les petits écrans */
+@media (max-width: 600px) {
+    .container {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
+  /* Pour les écrans moyens */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+  
+  /* Pour les grands écrans */
+  @media (min-width: 1025px) {
+    .container {
+      font-size: 20px;
+      padding: 16px;
+    }
+  }
+  

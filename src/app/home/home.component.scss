@@ -1,0 +1,316 @@
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 1000px;
+    width: 100%;
+   
+    
+}
+
+
+.content {
+    
+    background-color: #ffffff; /* Couleur pour la première div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.design {
+    flex: 1;
+    background-color: #b8bbc4; /* Couleur pour la deuxième div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-left-radius: 800px; 
+    margin-right: -20px;
+    margin-top: -80px;
+    margin-left: 350px;
+    
+}
+.img{
+    width: 550px;
+    height: 500px;
+    border-radius: 70px;
+    margin-left: -90px;
+    transform: rotate(-10deg);
+    margin-top: -21px;
+}
+.cadre{
+    width: 500px;
+    height: 500px;
+    transform: rotate(-8deg); /* Rotation pour faire apparaître le carré en diagonale */
+    background-color: rgb(91, 91, 200);
+    border-radius: 70px;
+
+
+}
+.cadre2{
+    width: 520px;
+    height: 520px;
+    transform: rotate(18deg); 
+    background-color: rgb(255, 255, 255);
+    margin-left: -550px;
+    border-radius: 70px;
+
+
+}
+.title{
+    font-size: 70px;
+    margin-top: -500px;
+    font-family: cursive;
+    margin-left: 100px;
+}
+p{
+    margin-top: -300px;
+    margin-left: -400px;
+}
+.search-container{
+    margin-top: -120px;
+    margin-left: -500px;
+}
+.search-input{
+    width: 600px;
+    height: 60px;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+.search-button{
+    width: 108px; /* Largeur du bouton */
+    height: 50px; /* Hauteur du bouton */
+    border-radius: 10px;
+    background-color: rgb(91, 91, 200);
+    color: white; /* Couleur du texte */
+    border: none; /* Supprime la bordure par défaut */
+    font-size: 20px; /* Taille du texte */
+    margin-left: -115px;
+   
+    
+    cursor: pointer;
+}
+.fa-solid{
+    color:  rgb(91, 91, 200);
+    font-size: 20px;
+}
+.suggestion{
+    margin-top: 50px;
+    margin-left: -600px;
+}
+.col{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: -750px;
+
+}
+.col1, .col2, .col3 {
+    height: 140px;
+    width: 250px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .4);
+    margin-top: 450px;
+    display: inline-flex;  /* Use inline-flex to align items horizontally */
+    align-items: center;  /* Center items vertically */
+    padding: 20px 10px;  /* Add padding for better spacing */
+    box-sizing: border-box;  /* Include padding and border in the element's total width and height */
+}
+
+
+
+
+
+.details {
+    font-size: 34px;
+    margin: 17px 0;
+    color: #333;
+}
+
+.capteur {
+    font-size: 20px;
+    color: #777;
+    margin-top: 80px;
+    margin-left: -40px;
+}
+
+
+.fa-building,.fa-bag-shopping,.fa-person{
+    font-size: 60px;
+    margin-top:10px;
+    margin-left: 10px;
+    
+    
+}
+.container1{
+    background-color:  #b8bbc4;
+    height: 500px;
+    width: 2041px;
+    margin-left: -25px;
+    margin-top: -43px;
+}
+.title1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+.cycle{
+    padding-top: 50px;
+    display: flex;
+    gap: 40px;
+    margin-left: 300px;
+}
+.cycle1, .cycle2, .cycle3 ,.cycle4{
+    height: 200px;
+    width: 300px;
+   background: #b8bbc4;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .4);
+    
+    box-sizing: border-box;  
+}
+.fa-circle-user,.fa-cloud-arrow-up,.fa-searchengin,.fa-circle-check{
+    font-size: 40px;
+    padding:20px 130px;
+    color:  rgb(91, 91, 200);
+}
+h4{
+    padding-left: 80px;
+}
+.fa-arrow-right{
+   font-size: 40px;
+   color: #000;
+   padding-top: 80px;
+}
+.container2{
+    background-color:  #fff;
+    height: 1000px;
+    width: 2041px;
+   
+   
+}
+
+.ctg{
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 100px;
+    width: 90%;
+    background: #fff;
+    border-radius: 20px;
+   border: 1px solid #777;   
+   margin-left: 40px;    
+   display: flex;
+   align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out items horizontally */
+
+   
+}
+
+.btn-category{
+    background-color: rgb(91, 91, 200) ;
+    padding-top: -10px;
+    height: 50px;
+    border-radius: 10px;
+    width: 140px;
+    color: #fff;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    margin-top: 25px;
+    margin-left: auto; 
+}
+.img-category{
+    padding-top: 0px;
+    margin-right: 10px;
+}
+h3{
+    //margin-left: 20px;
+    font-size: 20px;
+    white-space: nowrap;
+   // margin-top: 70px;
+}
+.view{
+    background-color:#b8bbc4;
+    padding-top: -20px;
+    height: 50px;
+    border-radius: 10px;
+    width: 140px;
+    color: #000;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    margin-right: 140px;
+    margin-top: -80px;
+}
+.time{
+   background-color:#abb5d2;
+   border-radius: 20px;
+   margin-left: 10px;
+   border: #abb5d2;
+   color: #000;
+   max-width: 100px;
+   margin-top: -33px;
+}
+.det{
+    //margin-top: 15px;
+    margin-left: 10px;
+    padding-top: 20px;
+
+}
+h5{
+    padding-top: -50px;
+    color: #777;
+}
+.fa-regular{
+    font-size: 25px;
+    color: rgb(91, 91, 200);
+}
+.save-job-btn{
+    margin-left: 1300px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: none;
+    
+    
+}
+.fa-regular:hover {
+    background: #007bff; /* Couleur de fond au survol */
+    color: #fff; /* Couleur de l'icône au survol */
+}
+
+.fa-regular:active {
+    background: #0056b3; /* Couleur de fond au clic */
+    color: #e0e0e0; /* Couleur de l'icône au clic */
+}
+
+.fa-regular:focus {
+    outline: none; /* Supprime le contour par défaut lors du focus */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Ajoute un effet de surbrillance au focus */
+}
+.container3{
+    background-color:  #b8bbc4;
+    height: 500px;
+    width: 2041px;
+    margin-left: -25px;
+    margin-top: -43px;
+}
+.companies1, .companies2, .companies3 ,.companies4{
+    height: 300px;
+    width: 400px;
+   background: #fff;
+    border-radius: 20px;
+   // box-shadow: 0 0 20px 10px rgba(0, 0, 0, .4);
+    
+    box-sizing: border-box;  
+}
+.companies{
+    padding-top: 50px;
+    display: flex;
+    gap: 40px;
+    margin-left: 150px;
+}

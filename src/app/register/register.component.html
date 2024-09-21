@@ -1,0 +1,40 @@
+<div *ngIf="alertMessage" [ngClass]="{'alert-success': alertType === 'success', 'alert-error': alertType === 'error'}" class="alert-container">
+    {{ alertMessage }}
+</div>
+  
+<div class="container">
+    <div class="left">
+      <img src="./assets/log.png" alt="Logo" class="logo">
+    </div>
+    <div class="right">
+      <h1>Create Account</h1>
+      
+      <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+        <select id="role-select" formControlName="role">
+          <option value="employee">Employees</option>
+          <option value="candidate">Candidates</option>
+        </select>
+  
+        <input type="text" placeholder="Full Name" formControlName="fullname">
+        <input type="text" placeholder="Username" formControlName="username">
+        <input type="email" placeholder="Email Address" formControlName="email">
+        <input type="password" placeholder="Password" formControlName="password">
+        <input type="password" placeholder="Confirm Password" formControlName="confirmPassword">
+        
+        <div class="content">
+          <input type="checkbox" id="terms" formControlName="terms">
+          <label for="terms">I've read and agree with your <a href="">Terms of Services</a></label>
+        </div>
+        
+        <button type="submit" class="btn">Create Account</button>
+      </form>
+      
+      <p class="log">Already have an account? <a href="log">Log In</a></p>
+      
+      <p class="or">Or</p>
+      <div class="btns">
+        <button class="sign-btn"><i class="fa-brands fa-facebook-f"></i> Sign up with Facebook</button>
+        <button class="sign-btn"><i class="fa-brands fa-google"></i> Sign up with Google</button>
+      </div>
+    </div>
+  </div>

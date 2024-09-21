@@ -1,0 +1,86 @@
+/* src/styles.scss */
+
+
+.container{
+    width: 100%;
+    grid-template-columns: 100px 1000px;
+    display: grid;
+    height: 100%;
+    
+}
+.logo{
+    height: 964px;
+    margin-top: -100px;
+    margin-left: -50px;
+    width: 900px;
+}
+.right{
+    margin-left: 1000px;
+    width: 500px;
+    margin-top: 130px;
+}
+.form-content{
+    display: flex;
+  
+    flex-direction: column;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  background-color: #fff; 
+  box-shadow: #676565;
+}
+select,option{
+    float: right;
+    width: 150px;
+    height: 40px;
+    margin-top: -45px;
+    cursor: pointer;
+    border-radius: 4px; 
+
+}
+.btn{
+    height: 40px;
+    background-color: rgb(102, 102, 214);
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.content,.log{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.btns{
+    display: flex;
+    gap: 60px; 
+    justify-content: center;
+}  
+.sign-btn{
+    background-color: #fff;
+    width: 280px;
+    height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+
+}
+.fa-facebook-f {
+    width: 30px;
+    color: blue;
+}
+.fa-google{
+    width: 30px;
+
+}
+
+  
+  
